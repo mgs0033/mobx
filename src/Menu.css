@@ -1,0 +1,103 @@
+/* menu.css */
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #34495e;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Menu.css */
+
+#añadirCurso form {
+    display: flex;
+    flex-direction: column; /* Apilar elementos en una columna */
+    align-items: center; /* Centrar horizontalmente los elementos */
+  }
+  
+  #añadirCurso input[type="text"] {
+    margin-bottom: 10px; /* Espacio entre los inputs */
+    padding: 10px; /* Aumentar el padding para una mejor apariencia */
+    border-radius: 3px;
+    border: 1px solid #bdc3c7; /* Gris */
+    max-width: 300px; /* Establecer un ancho máximo */
+    width: 100%; /* Ocupar todo el ancho disponible */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+  }
+  
+
+
+#añadirCurso input[type="text"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #bdc3c7;
+}
+
+
+
+#mostrarCurso {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+#mostrarCurso li {
+    list-style: none;
+    margin-bottom: 20px;
+    flex: 0 0 30%;
+}
+
+#mostrarCurso img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0;
+}
+
+#eliminar {
+    margin-top: 10px; /* Espacio entre el botón y la imagen */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+    cursor: pointer;
+  }
+
+#borrar_1 {
+    margin-top: 10px; /* Espacio entre el botón y la entrada de texto */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+    cursor: pointer;
+  }
+
+#guardar {
+    margin-top: 10px; /* Espacio entre el botón y la entrada de texto */
+    padding: 10px 16px; /* Padding de 10px arriba/abajo y 16px izquierda/derecha */
+    border: none;
+    border-radius: 3px;
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    cursor: pointer;
+  }
+  
